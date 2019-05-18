@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "633289129284",
+    "firebase_url": "https://cap10-8dbd0.firebaseio.com",
+    "project_id": "cap10-8dbd0",
+    "storage_bucket": "cap10-8dbd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633289129284:android:b36c611d8645fa7c",
+        "android_client_info": {
+          "package_name": "com.example.drivercab10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633289129284-k6urrqvtnov897j1oblug36n0b2tcn8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfggJ2abzI-nEGo2WUibD2Ewj1HixDoas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633289129284-k6urrqvtnov897j1oblug36n0b2tcn8c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "633289129284-j7snd2re710kv7di2qkkgo9sn2k6loi3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.CabDriverr",
+                "app_store_id": "1459841461"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

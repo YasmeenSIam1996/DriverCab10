@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreyLight"
+    android:orientation="vertical"
+    tools:context=".UploadFilesActivity">
+
+
+    <include layout="@layout/toolbar"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/titleUploadMarginVer"
+        android:layout_marginBottom="@dimen/titleUploadMarginVer"
+        android:text="@string/identificationCard"
+        android:layout_marginStart="@dimen/marginUploadHor"
+        android:textSize="@dimen/suploadTitleSize" />
+
+
+    <RelativeLayout
+        android:layout_marginStart="@dimen/marginUploadHor"
+        android:layout_marginEnd="@dimen/marginUploadHor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgID"
+            android:src="@drawable/upload_id"
+            style="@style/ImgUploadStyle" />
+
+        <LinearLayout
+            android:layout_alignTop="@id/imgID"
+            android:layout_alignBottom="@id/imgID"
+            android:layout_toStartOf="@id/imgID"
+            style="@style/LayoutUploadStyle">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_upload"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="jpg, png or pdf"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginUploadHor"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="@dimen/titleUploadMarginVer"
+        android:text="@string/passport"
+        android:textSize="@dimen/suploadTitleSize" />
+    <RelativeLayout
+        android:layout_marginStart="@dimen/marginUploadHor"
+        android:layout_marginEnd="@dimen/marginUploadHor"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgPassport"
+            android:src="@drawable/upload_passport"
+            style="@style/ImgUploadStyle" />
+
+        <LinearLayout
+            android:layout_alignTop="@id/imgPassport"
+            android:layout_alignBottom="@id/imgPassport"
+            android:layout_toStartOf="@id/imgPassport"
+            style="@style/LayoutUploadStyle">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_upload"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="jpg, png or pdf"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

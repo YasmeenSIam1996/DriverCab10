@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.drivercab10">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".AppController.ApplicationController"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_launcher"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".OrderDetailsActivity"></activity>
+        <activity android:name=".FinishRateActivity">
+
+        </activity>
+        <activity android:name=".OrderCounterActivity"></activity>
+        <activity android:name=".UploadFilesActivity" />
+        <activity android:name=".FinanceActivity" />
+        <activity android:name=".YourTripsActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".MapsActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".SignUpActivity"
+            android:theme="@style/AppThemeNoActionBarWhite"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SignInActivity"
+            android:theme="@style/AppThemeNoActionBarWhite"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SelectLangActivity" />
+
+
+        <service android:name=".FirebaseUtils.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.drivercab10.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+
+
+        <receiver android:name=".FirebaseUtils.FirebaseDataReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

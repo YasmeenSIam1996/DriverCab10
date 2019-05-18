@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    android:paddingStart="@dimen/padding_splash_h"
+    android:paddingEnd="@dimen/padding_splash_h"
+    tools:context=".SelectLangActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/splash_logo" />
+
+    <RelativeLayout
+        android:id="@+id/layoutChooseLang"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chooselang_layout_height"
+        android:layout_above="@id/btnLetsGo"
+        android:background="@drawable/choose_lang"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/selectLang"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/imgLang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@id/tvLang"
+            android:src="@drawable/flag_egp" />
+
+        <TextView
+            android:id="@+id/tvLang"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@id/imgSpinner"
+            android:gravity="center"
+            android:text="@string/ar"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/imgSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_arrow_drop_down" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnLetsGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/margin_letsgo_top"
+        android:layout_marginBottom="@dimen/margin_letsgo_bottom"
+        android:background="@drawable/btn_lets_go_bg"
+        android:text="@string/letsGo"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/letsgo_text_size" />
+</RelativeLayout>

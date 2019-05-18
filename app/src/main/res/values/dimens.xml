@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="btnTextSize">18sp</dimen>
+    <dimen name="editTextHeight">40dp</dimen>
+    <dimen name="padding_edittext_h">10dp</dimen>
+    <dimen name="dividerSize">1dp</dimen>
+    <dimen name="sheetTitleMarginH">22dp</dimen>
+
+    <dimen name="btnHeight">48dp</dimen>
+    <dimen name="margin_letsgo_bottom">30dp</dimen>
+    <dimen name="margin_letsgo_top">15dp</dimen>
+    <dimen name="padding_splash_h">20dp</dimen>
+    <dimen name="letsgo_text_size">16sp</dimen>
+    <dimen name="chooselang_layout_height">40dp</dimen>
+
+
+    <!--sign in activity-->
+    <dimen name="signInMarginH">40dp</dimen>
+    <dimen name="app_bar_height">186dp</dimen>
+    <dimen name="smallRaduis">8dp</dimen>
+
+    <!--sign up activity-->
+    <dimen name="ccpTextSize">14sp</dimen>
+    <dimen name="margin_ccp">3dp</dimen>
+    <dimen name="marginSignUpV1">10dp</dimen>
+    <dimen name="marginSignUpV2">15dp</dimen>
+    <dimen name="marginSignUpV3">30dp</dimen>
+    <dimen name="paddingFbBtnH">20dp</dimen>
+    <dimen name="marginSignInV3">44dp</dimen>
+    <dimen name="marginSignInV2">15dp</dimen>
+    <dimen name="marginSignInV1">10dp</dimen>
+    <dimen name="marginBtnSocialH">5dp</dimen>
+
+    <!--sign up dialog-->
+    <dimen name="padding_dialog_h">10dp</dimen>
+    <dimen name="btn_padding_dialog_h">15dp</dimen>
+    <dimen name="btn_padding_dialog_v">7dp</dimen>
+    <dimen name="txtHeightDialog">45dp</dimen>
+    <dimen name="txtSizeDialog">28sp</dimen>
+    <dimen name="txtMarginDialogH">3dp</dimen>
+    <dimen name="marginTopMsgSignup">50dp</dimen>
+    <dimen name="textResendSize">12sp</dimen>
+    <dimen name="phoneDialogSize">23sp</dimen>
+    <dimen name="marginDialogV3">30dp</dimen>
+    <dimen name="marginDialogV2">15dp</dimen>
+    <dimen name="marginDialogV1">10dp</dimen>
+    <dimen name="marginPhoneChangeH">15dp</dimen>
+    <dimen name="btnMapHeight">40dp</dimen>
+    <dimen name="layoutMarginMap">15dp</dimen>
+    <dimen name="cardCornerRadius">7dp</dimen>
+    <dimen name="cardPaddingV">10dp</dimen>
+    <dimen name="textAddressMarginH">15dp</dimen>
+    <dimen name="titleTripDetails">12sp</dimen>
+    <dimen name="tripPriceSize">19sp</dimen>
+    <dimen name="nav_header_height">177dp</dimen>
+    <dimen name="nameSizeNavDrawer">16sp</dimen>
+    <dimen name="itemNavMarginVer">15dp</dimen>
+    <dimen name="imgNavSize">96dp</dimen>
+    <dimen name="imgNavCornerRadius">48dp</dimen>
+
+    <!--item card-->
+    <dimen name="margin_card_ver">10dp</dimen>
+    <dimen name="margin_card_start">12dp</dimen>
+    <dimen name="margin_views_1">8dp</dimen>
+
+    <!--activity finance-->
+    <dimen name="calendarLayoutPaddingHor">15dp</dimen>
+    <dimen name="calendarPaddingHor">12dp</dimen>
+    <dimen name="calendarPaddingVer">6dp</dimen>
+    <dimen name="marginTotalHor">10dp</dimen>
+    <dimen name="paddTotalHor">45dp</dimen>
+    <dimen name="paddTotalVer">7dp</dimen>
+    <dimen name="marginUploadHor">15dp</dimen>
+    <dimen name="titleUploadMarginVer">10dp</dimen>
+    <dimen name="suploadTitleSize">16sp</dimen>
+
+
+    <!--order details activity-->
+    <dimen name="bigCircleImg">82dp</dimen>
+    <dimen name="smallCircleImg">28dp</dimen>
+    <dimen name="smallRadiusImg">14dp</dimen>
+    <dimen name="bigRadiusImg">41dp</dimen>
+    <dimen name="orderDetailsMargin">15dp</dimen>
+    <dimen name="paddingItemNav">12dp</dimen>
+    <dimen name="itemNavMarginHor">20dp</dimen>
+    <dimen name="navTextSize">16sp</dimen>
+
+</resources>

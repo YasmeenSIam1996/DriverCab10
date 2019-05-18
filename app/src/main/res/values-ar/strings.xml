@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">DriverCab10</string>
+    <string name="letsGo">هيا ننطلق</string>
+    <string name="ar">العربية</string>
+    <string name="selectLang">اختر اللغة</string>
+    <string name="english">الانجليزية</string>
+    <string name="signIn">تسجيل الدخول</string>
+    <string name="emailMobileNo">البريد الالكتروني / رقم الهاتف</string>
+    <string name="password">كلمة المرور</string>
+    <string name="forgetPassword">نسيت كلمة المرور</string>
+    <string name="enter">دخول</string>
+    <string name="newUser">مستخدم جديد؟</string>
+    <string name="or">أو</string>
+    <string name="continueWithFB">استمرار عبر الفيسبوك</string>
+    <string name="continueWithGoogle">استمرار عبر جوجل بلس</string>
+    <string name="signUp">التسجيل</string>
+    <string name="theName">الاسم</string>
+    <string name="Email">البريد الالكتروني</string>
+    <string name="phoneNumber">رقم الهاتف</string>
+    <string name="haveAnAccount">لديك حساب حالي؟</string>
+    <string name="completeSignupMsg">أدخل الكود المرسل إلى رقم الموبايل</string>
+    <string name="change">تغيير</string>
+    <string name="completeSignup">أكمل التسجيل</string>
+    <string name="didntRecieveCode">لم تستلم الكود؟</string>
+    <string name="resendCode">أعد إرسال الكود؟</string>
+
+    <string name="available">متاح</string>
+    <string name="unavailable">غير متاح</string>
+
+    <!--home activity drawer-->
+    <string name="navMain">الرئيسية</string>
+    <string name="navYourTrips">مشاويرك</string>
+    <string name="navFinance">السجل المالي</string>
+    <string name="navHelp">اطلب مساعدة</string>
+    <string name="navUpload">ارفع ملفاتك الشخصية</string>
+    <string name="navLogout">تسجيل الخروج</string>
+
+    <!--Finance Activity-->
+    <string name="from">من:</string>
+    <string name="to">إلى:</string>
+    <string name="dateAndTime">التاريخ والوقت</string>
+    <string name="theClient">العميل</string>
+    <string name="orderValue">قيمة الطلب</string>
+    <string name="totalOrders">إجمالي الطلبات</string>
+    <string name="identificationCard">الهوية الشخصية</string>
+    <string name="passport">جواز السفر</string>
+
+
+    <!--order counter Activity-->
+    <string name="orderInfo">معلومات الطلب</string>
+    <string name="accept">قبول</string>
+    <string name="reject">رفض</string>
+    <string name="newOrder">طلب جديد</string>
+    <string name="completeOrder">إتمام الطلب</string>
+    <string name="send">إرسال</string>
+    <string name="customerRate">تقييم الزبون</string>
+    <string name="kilometer">كم</string>
+    <string name="minutes">دقائق</string>
+    <string name="sr">ر.س</string>
+    <string name="orderDetails">تفاصيل الطلب</string>
+    <string name="NO">لا</string>
+    <string name="YES">نعم</string>
+    <string name="logo_out">متأكد من تسجيل الخروج ?</string>
+    <string name="EmptyField">الرجاء تعبئة الحقول الفارغة</string>
+    <string name="NotVaildEmail">الرجاء ادخال بريد الكتروني صحيح</string>
+    <string name="LastName">الاسم الثاني</string>
+    <string name="FirstName">الاسم الاول</string>
+    <string name="MyLocation">موقعي</string>
+
+    <!--order details activity-->
+    <string name="totalDrivePrice">إجمالي سعر الرحلة</string>
+    <string name="kiloMeter">(كم)</string>
+    <string name="taxiService">ضريبة الخدمة</string>
+    <string name="BokkingFees">رسوم الحجز</string>
+    <string name="MainPrice">السعر الأساسي</string>
+    <string name="MinimumWage">الحد الأدنى للأجرة</string>
+    <string name="crossedDistance">المسافة المقطوعة</string>
+    <string name="driveDuration">وقت الرحلة</string>
+    <string name="minute">(دقيقة)</string>
+    <string name="saudiRial">(ر.س)</string>
+
+    <string name="ChoiceYourPlace">حدد مكانك</string>
+    <string name="SAVE_CONTINUE">حفظ واستكمال</string>
+    <string name="choose_location">الرجاء اختر المكان ?</string>
+    <string name="confirmArived">تأكيد مكان الوصول</string>
+    <string name="goNow">انطلق الآن</string>
+    <string name="NotSelected">لم تحدد</string>
+    <string name="CANCEL_ORDER">إلغاء الطلب</string>
+    <string name="Access_point">حدد نقطة الوصول</string>
+    <string name="ConfirmCarStyle">حدد نوع السيارة</string>
+    <string name="ConfirmTime">حدد وقت الرحلة</string>
+    <string name="TripSchedulDone">تم جدولة الرحلة بنجاح</string>
+    <string name="Location">الموقع</string>
+    <string name="Done">تم</string>
+    <string name="permission">You don\'t assign permission.</string>
+    <string name="ConfirmProviderArrived">تاكيد الوصول للموقع</string>
+    <string name="ConfirmStarted">تأكيد الاقلاع</string>
+    <string name="StartTravel">بدء الرحلة</string>
+    <string name="FinishTravel">انهاء الرحلة</string>
+    <string name="Rate">قيم المستخدم لو سمحت</string>
+
+</resources>

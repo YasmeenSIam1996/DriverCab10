@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/TitleToolbarStyle"
+            android:fontFamily="@font/swissra_medium"
+            android:text="@string/signIn"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/imgWalletBack"
+            style="@style/BackIconStyle"
+            android:src="@drawable/ic_arrow_back" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/signin_logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/signInMarginH"
+            android:paddingEnd="@dimen/signInMarginH">
+
+            <LinearLayout
+                style="@style/EditTextLayoutStyle"
+                android:layout_marginTop="0dp">
+
+                <FrameLayout
+                    android:layout_width="@dimen/editTextHeight"
+                    android:layout_height="@dimen/editTextHeight">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_email" />
+                </FrameLayout>
+
+                <EditText
+                    android:id="@+id/EditEmail"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/emailMobileNo"
+                    android:inputType="textEmailAddress" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/EditTextLayoutStyle">
+
+
+                <FrameLayout
+
+                    android:layout_width="@dimen/editTextHeight"
+                    android:layout_height="@dimen/editTextHeight">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_lock" />
+                </FrameLayout>
+
+                <EditText
+                    android:id="@+id/EditPass"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/password"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="4dp"
+                android:text="@string/forgetPassword" />
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginSignInV3"
+                android:text="@string/enter" />
+
+            <TextView
+                android:id="@+id/tvNewUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="4dp"
+                android:text="@string/newUser" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View style="@style/DividerStyle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="30dp"
+                    android:text="@string/or" />
+
+                <View style="@style/DividerStyle" />
+            </LinearLayout>
+
+            <Button
+                style="@style/BtnSocialStyle"
+                android:layout_marginTop="@dimen/marginSignInV1"
+                android:drawableStart="@drawable/facebook_logo"
+                android:text="@string/continueWithFB" />
+
+            <Button
+                style="@style/BtnSocialStyle"
+                android:layout_marginTop="@dimen/marginSignInV2"
+                android:background="@drawable/bg_button_google"
+                android:drawableStart="@drawable/google_plus"
+                android:text="@string/continueWithGoogle" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

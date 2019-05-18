@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">DriverCab10</string>
+    <string name="letsGo">Let\'s Go</string>
+    <string name="ar">Arabic</string>
+    <string name="selectLang">Select Language</string>
+    <string name="english">English</string>
+    <string name="signIn">Sign In</string>
+    <string name="emailMobileNo">Email Address \\ Mobile No.</string>
+    <string name="password">Password</string>
+    <string name="forgetPassword">forget password?</string>
+    <string name="enter">Enter</string>
+    <string name="newUser">New User?</string>
+    <string name="or">or</string>
+    <string name="continueWithFB">continue with facebook</string>
+    <string name="continueWithGoogle">continue with google plus</string>
+    <string name="signUp">Sign Up</string>
+    <string name="theName">Name</string>
+    <string name="Email">Email</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="haveAnAccount">Have Account?</string>
+    <string name="completeSignupMsg">Enter code that sent to your mobile</string>
+    <string name="change">change</string>
+    <string name="completeSignup">Complete Sign Up</string>
+    <string name="didntRecieveCode">didn\'t receive code?</string>
+    <string name="resendCode">re-send code?</string>
+
+    <string name="available">available</string>
+    <string name="unavailable">unavailable</string>
+
+    <!--home activity drawer-->
+    <string name="navMain">Main</string>
+    <string name="navYourTrips">Your Drives</string>
+    <string name="navFinance">Financial Record</string>
+    <string name="navHelp">Help</string>
+    <string name="navUpload">Upload Personal Papers</string>
+    <string name="navLogout">Logout</string>
+
+    <!--Finance Activity-->
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="dateAndTime">Date &amp; Time</string>
+    <string name="theClient">Client</string>
+    <string name="orderValue">Order Price</string>
+    <string name="totalOrders">Total Orders</string>
+    <string name="identificationCard">Identification Card</string>
+    <string name="passport">Passport</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--order counter Activity-->
+    <string name="orderInfo">Order info</string>
+    <string name="accept">accept</string>
+    <string name="reject">reject</string>
+    <string name="newOrder">New Order</string>
+    <string name="completeOrder">Complete Order</string>
+    <string name="send">Send</string>
+    <string name="customerRate">Rate The Customer</string>
+    <string name="kilometer">km</string>
+    <string name="minutes">minutes</string>
+    <string name="sr">SR</string>
+    <string name="orderDetails">Order Details</string>
+    <string name="NO">No</string>
+    <string name="YES">Yes</string>
+    <string name="logo_out">Are you sure to Log out ?</string>
+    <string name="EmptyField">Please fill empty fields</string>
+    <string name="NotVaildEmail">Please inter vaild Email</string>
+    <string name="LastName">Last Name</string>
+    <string name="FirstName">First Name</string>
+    <string name="totalDrivePrice">إجمالي سعر الرحلة</string>
+    <string name="saudiRial">ر.س</string>
+    <string name="MyLocation">My Location</string>
+
+
+
+
+    <!--order details activity-->
+    <string name="kiloMeter">(km)</string>
+    <string name="taxiService">service tax</string>
+    <string name="BokkingFees">booking fees</string>
+    <string name="MainPrice">basic price</string>
+    <string name="MinimumWage">minimum wage</string>
+    <string name="crossedDistance">traveled distance</string>
+    <string name="driveDuration">drive duration</string>
+    <string name="minute">(minute)</string>
+    <string name="ChoiceYourPlace">Select your location</string>
+    <string name="SAVE_CONTINUE">SAVE AND CONTINUE</string>
+    <string name="choose_location">Choose a location please ?</string>
+    <string name="confirmArived">تأكيد مكان الوصول</string>
+    <string name="goNow">انطلق الآن</string>
+    <string name="NotSelected">Not Selected</string>
+    <string name="CANCEL_ORDER">CANCEL ORDER</string>
+    <string name="Access_point">Confirm the access point</string>
+    <string name="ConfirmCarStyle">Confirm the car style</string>
+    <string name="ConfirmTime">Confirm trip time</string>
+    <string name="TripSchedulDone">Trip scheduled successfully</string>
+    <string name="Location">Location</string>
+    <string name="Done">Done</string>
+    <string name="permission">You don\'t assign permission.</string>
+    <string name="ConfirmProviderArrived">Confirm location access</string>
+    <string name="ConfirmStarted">Confirm Started</string>
+    <string name="StartTravel">Start Travel</string>
+    <string name="FinishTravel">Finish The Travel</string>
+    <string name="Rate">Rating user, please</string>
+
+</resources>
